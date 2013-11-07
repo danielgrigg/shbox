@@ -22,8 +22,8 @@ An example session:
 $ . shbox.sh
 > _help info_
 
-> box\_folder\_items | head
-{
+box\_folder\_items | head
+> {
   "order": [
     {
       "direction": "ASC",
@@ -36,7 +36,7 @@ $ . shbox.sh
   ...
 }
 
-# Wtf?
+# Eh?
 Why did I write this? A) I could. B) no one seems to have done it
 and I personally find it useful using curl etc for playing with API.
 The automated oauth flow means you can use the script as the basis for
